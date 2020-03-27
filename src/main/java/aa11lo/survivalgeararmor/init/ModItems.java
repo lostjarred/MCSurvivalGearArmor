@@ -18,7 +18,7 @@ public class ModItems {
         @SubscribeEvent
         public static void registerItems(Register<Item> event){
             final Item[] items ={
-                new Item().setRegistryName(survivalgeararmor.MODID, "item_crafting_cloth").setTranslationKey(survivalgeararmor.MODID + "." + "item_crafting_cloth").setCreativeTab(CreativeTabs.MISC)
+                new Item().setRegistryName(survivalgeararmor.MODID, "item_crafting_cloth").setTranslationKey(survivalgeararmor.MODID + "." + "item_crafting_cloth").setCreativeTab(survivalgeararmor.SurvivalGearArmorTab)
             };
 
             event.getRegistry().registerAll(items);

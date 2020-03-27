@@ -1,8 +1,12 @@
 package aa11lo.survivalgeararmor;
 
 import org.apache.logging.log4j.Logger;
+
+import aa11lo.survivalgeararmor.tabs.SurvivalGearArmorTab;
+
 import org.apache.logging.log4j.LogManager;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,6 +22,8 @@ public class survivalgeararmor {
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(survivalgeararmor.MODID);
+
+	public static final CreativeTabs SurvivalGearArmorTab = new SurvivalGearArmorTab();
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

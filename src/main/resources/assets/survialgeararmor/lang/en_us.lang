@@ -1,2 +1,5 @@
 # Items
 item.survialgeararmor.item_crafting_cloth.name=Cloth
+
+#Creative tab
+itemGroup.survialgeararmor=Survival Gear Armor
