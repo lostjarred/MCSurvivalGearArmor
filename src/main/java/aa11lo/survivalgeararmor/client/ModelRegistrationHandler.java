@@ -17,9 +17,14 @@ public class ModelRegistrationHandler {
     @SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.ITEM_CRAFTING_CLOTH, 0);
+        registerModel(ModItems.ARMOR_BASIC_BOOTS, 0);
+        registerModel(ModItems.ARMOR_BASIC_CHESTPLATE, 0);
+        registerModel(ModItems.ARMOR_BASIC_HELMENT, 0);
+        registerModel(ModItems.ARMOR_BASIC_LEGGINGS, 0);
     }
 
     private static void registerModel(Item item, int meta) {
+        aa11lo.survivalgeararmor.survivalgeararmor.LOGGER.info("loading model from " + item.getRegistryName());
 		ModelLoader.setCustomModelResourceLocation(item, meta, 
 				new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
