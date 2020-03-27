@@ -18,8 +18,14 @@ build
 .gradle
 
 # other
-eclipse
-run
+saves/
+config/
+options.txt
+usercache.json
+usernamecache.json
+logs/
+crash-reports/
+*.launch
 
 #gimp
 *.xcf
