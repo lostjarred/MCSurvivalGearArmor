@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"X X",
+		"X X"
+	],
+	"key": {
+		"X": {
+			"item": "survialgeararmor:item_crafting_cloth"
+		}
+	},
+	"result": {
+		"item": "survialgeararmor:armor_basic_leggings"
+	}
+}
