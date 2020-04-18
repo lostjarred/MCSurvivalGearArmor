@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		"X#X",
+		" X "
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:string"
+		},
+		"#": {
+            "item": "minecraft:wool",
+            "data": 0
+		}
+	},
+	"result": {
+		"item": "survialgeararmor:item_crafting_cloth"
+	}
+}
