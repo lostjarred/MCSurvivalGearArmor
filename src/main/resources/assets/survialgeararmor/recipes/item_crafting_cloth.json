@@ -10,8 +10,8 @@
 			"item": "minecraft:string"
 		},
 		"#": {
-            "item": "minecraft:wool",
-            "data": 0
+            "type": "forge:ore_dict",
+      		"ore": "wool"
 		}
 	},
 	"result": {
