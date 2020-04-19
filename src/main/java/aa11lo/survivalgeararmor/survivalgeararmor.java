@@ -18,7 +18,7 @@ public class survivalgeararmor {
 
 	public static final String MODID = "survialgeararmor";
 	public static final String NAME = "Survival Gear Armor Mod";
-	public static final String VERSION = "0.0.1";
+	public static final String VERSION = "0.1.0";
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(survivalgeararmor.MODID);
