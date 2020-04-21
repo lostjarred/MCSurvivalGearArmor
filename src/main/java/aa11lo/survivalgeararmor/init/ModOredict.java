@@ -1,13 +1,10 @@
 package aa11lo.survivalgeararmor.init;
 
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import aa11lo.survivalgeararmor.survivalgeararmor;
 import net.minecraftforge.oredict.OreDictionary;
-
 public class ModOredict {
-    
-    @EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
+    public static void registerOredicts(){
+        survivalgeararmor.LOGGER.info(survivalgeararmor.NAME + ": Registering Oredict");
         OreDictionary.registerOre("craftingCloth", ModItems.ITEM_CRAFTING_CLOTH );
-	}
+    }
 }

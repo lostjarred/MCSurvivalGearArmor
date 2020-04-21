@@ -2,6 +2,7 @@ package aa11lo.survivalgeararmor;
 
 import org.apache.logging.log4j.Logger;
 
+import aa11lo.survivalgeararmor.init.ModOredict;
 import aa11lo.survivalgeararmor.tabs.SurvivalGearArmorTab;
 
 import org.apache.logging.log4j.LogManager;
@@ -32,7 +33,8 @@ public class survivalgeararmor {
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		LOGGER.info(survivalgeararmor.NAME + "Armor: Loading");
+		LOGGER.info(survivalgeararmor.NAME + ": Loading");
+		ModOredict.registerOredicts();
 	}
 
 	@EventHandler

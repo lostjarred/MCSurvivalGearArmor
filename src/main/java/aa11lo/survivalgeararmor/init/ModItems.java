@@ -36,7 +36,6 @@ public class ModItems {
             };
 
             event.getRegistry().registerAll(items);
-
         }
     }
 
