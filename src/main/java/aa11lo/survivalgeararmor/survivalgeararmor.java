@@ -27,7 +27,7 @@ public class survivalgeararmor {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-        
+
 	}
 
 	@EventHandler
