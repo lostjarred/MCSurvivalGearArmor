@@ -1,6 +1,7 @@
 package aa11lo.survivalgeararmor.init;
 
 import aa11lo.survivalgeararmor.survivalgeararmor;
+import aa11lo.survivalgeararmor.item.ItemBasic;
 import aa11lo.survivalgeararmor.item.ItemSurvivalGearArmorBasic;
 import aa11lo.survivalgeararmor.material.SurvivalGearArmorMaterials;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -27,7 +28,7 @@ public class ModItems {
         @SubscribeEvent
         public static void registerItems(Register<Item> event){
             final Item[] items ={
-                new Item().setRegistryName(survivalgeararmor.MODID, "item_crafting_cloth").setTranslationKey(survivalgeararmor.MODID + "." + "item_crafting_cloth").setCreativeTab(survivalgeararmor.SurvivalGearArmorTab),
+                new ItemBasic("item_crafting_cloth", "item_crafting_cloth"),
                 new ItemSurvivalGearArmorBasic(SurvivalGearArmorMaterials.SURVIALGEARARMOR_BASIC, EntityEquipmentSlot.HEAD, "helmentbasic", "armor_basic_helment"),
                 new ItemSurvivalGearArmorBasic(SurvivalGearArmorMaterials.SURVIALGEARARMOR_BASIC, EntityEquipmentSlot.CHEST, "chestplatebasic", "armor_basic_chestplate"),
                 new ItemSurvivalGearArmorBasic(SurvivalGearArmorMaterials.SURVIALGEARARMOR_BASIC, EntityEquipmentSlot.LEGS, "leggingsbasic", "armor_basic_leggings"),
