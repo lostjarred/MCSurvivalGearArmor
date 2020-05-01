@@ -33,8 +33,11 @@ public class ModItems {
                 new ItemSurvivalGearArmorBasic(SurvivalGearArmorMaterials.SURVIALGEARARMOR_BASIC, EntityEquipmentSlot.LEGS, "leggingsbasic", "armor_basic_leggings"),
                 new ItemSurvivalGearArmorBasic(SurvivalGearArmorMaterials.SURVIALGEARARMOR_BASIC, EntityEquipmentSlot.FEET, "bootsbasic", "armor_basic_boots"),
             };
-
-            event.getRegistry().registerAll(items);
+            survivalgeararmor.LOGGER.info("Begging Item Register");
+            for(int i =0; i < items.length; i++){
+                survivalgeararmor.LOGGER.info("Registering " + items[i].getTranslationKey());
+                event.getRegistry().register(items[i]);
+            }
         }
     }
 
