@@ -2,7 +2,6 @@ package aa11lo.survivalgeararmor.material;
 
 import aa11lo.survivalgeararmor.survivalgeararmor;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 

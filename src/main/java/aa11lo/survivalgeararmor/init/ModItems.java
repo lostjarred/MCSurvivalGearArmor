@@ -3,7 +3,6 @@ package aa11lo.survivalgeararmor.init;
 import aa11lo.survivalgeararmor.survivalgeararmor;
 import aa11lo.survivalgeararmor.item.ItemSurvivalGearArmorBasic;
 import aa11lo.survivalgeararmor.material.SurvivalGearArmorMaterials;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
